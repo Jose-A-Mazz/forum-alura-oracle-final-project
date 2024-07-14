@@ -1,0 +1,1 @@
+ALTER TABLE respuestas ADD COLUMN respuesta_principal BIGINT;

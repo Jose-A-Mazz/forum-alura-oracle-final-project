@@ -1,0 +1,3 @@
+ALTER TABLE topicos ADD COLUMN activo BOOLEAN DEFAULT TRUE;
+
+UPDATE topicos SET activo = TRUE;
